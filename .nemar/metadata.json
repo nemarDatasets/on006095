@@ -3,7 +3,7 @@
   "pipeline_stage": "enriched",
   "title": "Mind in Motion Older Adults Walking Over Uneven Terrain",
   "description": "This dataset comprises high-density dual-layer electroencephalography (EEG), neck electromyography (EMG), inertial measurement unit (IMU) acceleration, and ground reaction force recordings from older adults walking over uneven terrain at varying speeds. Participants completed two trials per condition lasting three minutes each, along with a three-minute seated rest baseline. The dataset includes digitized electrode locations for each participant and represents a comprehensive multimodal neurophysiological and biomechanical assessment of locomotor control in aging.",
-  "methods_description": "Data collection included high-density dual-layer EEG, neck EMG, IMU acceleration, and ground reaction force measurements. Participants performed two trials for each walking condition over uneven terrain at different speeds, with each trial lasting three minutes. A three-minute seated rest trial was also recorded as a baseline condition. Digitized electrode locations are provided for each subject.",
+  "methods_description": "Data collection included high-density dual-layer EEG, neck EMG, IMU acceleration, and ground reaction force measurements. Participants performed two trials of three minutes each for each walking condition (varying speeds and terrain types) plus a three-minute seated rest trial.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -24,41 +24,37 @@
   },
   "keywords": [
     {
-      "term": "EEG",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
-      "term": "Electromyography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
+      "term": "electromyography"
     },
     {
-      "term": "Gait",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005684"
+      "term": "gait"
     },
     {
-      "term": "Aging",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000375"
-    },
-    {
-      "term": "Biomechanics",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001696"
+      "term": "aging"
     },
     {
       "term": "motor control"
     },
     {
-      "term": "uneven terrain locomotion"
-    },
-    {
-      "term": "accelerometry"
+      "term": "inertial measurement units"
     },
     {
       "term": "ground reaction force"
+    },
+    {
+      "term": "uneven terrain"
+    },
+    {
+      "term": "locomotor control"
+    },
+    {
+      "term": "biomechanics"
+    },
+    {
+      "term": "older adults"
     }
   ],
   "related_identifiers": [
