@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Mind in Motion Older Adults Walking Over Uneven Terrain",
+  "description": "This dataset comprises high-density dual-layer electroencephalography (EEG), neck electromyography (EMG), inertial measurement unit (IMU) acceleration, and ground reaction force recordings from older adults walking over uneven terrain at varying speeds. Participants completed two trials per condition lasting three minutes each, along with a three-minute seated rest baseline. The dataset includes digitized electrode locations for each participant and represents a comprehensive multimodal neurophysiological and biomechanical assessment of locomotor control in aging.",
+  "methods_description": "Data collection included high-density dual-layer EEG, neck EMG, IMU acceleration, and ground reaction force measurements. Participants performed two trials for each walking condition over uneven terrain at different speeds, with each trial lasting three minutes. A three-minute seated rest trial was also recorded as a baseline condition. Digitized electrode locations are provided for each subject.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,12 +22,46 @@
     "Rachael D. Seidler": {},
     "Daniel P. Ferris": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006095.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
+    {
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
+    },
+    {
+      "term": "Gait",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005684"
+    },
+    {
+      "term": "Aging",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000375"
+    },
+    {
+      "term": "Biomechanics",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001696"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "uneven terrain locomotion"
+    },
+    {
+      "term": "accelerometry"
+    },
+    {
+      "term": "ground reaction force"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on006095",
       "identifier_type": "URL",
@@ -40,6 +76,11 @@
       "identifier": "10.18112/openneuro.ds006095",
       "identifier_type": "DOI",
       "relation_type": "IsVersionOf"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006095.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -48,12 +89,12 @@
       "award_number": "U01AG061389"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "136.8 GB (2342 files)"
   ],
   "formats": [
     ".fdt",
@@ -61,41 +102,8 @@
     ".md",
     ".set",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "This dataset comprises multimodal neurophysiological and biomechanical recordings from older adults performing walking tasks over uneven terrain at varying speeds. High-density dual-layer electroencephalography (EEG) was collected alongside neck electromyography (EMG), inertial measurement unit (IMU) acceleration, and ground reaction force measurements. Participants completed two trials per condition lasting three minutes each, with an additional three-minute seated rest baseline. The dataset includes digitized electrode locations for each participant and supports investigation of neural mechanisms underlying locomotor control and balance in aging.",
-  "methods_description": "Data collection included high-density dual-layer EEG, neck EMG, IMU acceleration, and ground reaction force measurements. Participants performed walking trials over uneven terrain at different speeds, with two repetitions per condition (3 minutes each), plus a 3-minute seated rest trial. Digitized electrode locations are provided for each subject.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "electromyography"
-    },
-    {
-      "term": "gait"
-    },
-    {
-      "term": "aging"
-    },
-    {
-      "term": "balance"
-    },
-    {
-      "term": "locomotion"
-    },
-    {
-      "term": "inertial measurement units"
-    },
-    {
-      "term": "uneven terrain"
-    },
-    {
-      "term": "ground reaction force"
-    },
-    {
-      "term": "older adults"
-    }
-  ],
-  "source_hash": "1a4c890dde4de9cb293599a067b38c02e3aab66487a1fe1e0ebd501186727dc2"
+  "source_hash": "c21150c94d7eb0150e2bd7e1d70786678be94d0c01063da1d37ffdbcc5da8f95"
 }
