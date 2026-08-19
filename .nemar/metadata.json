@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Mind in Motion Older Adults Walking Over Uneven Terrain",
-  "description": "This dataset comprises high-density dual-layer electroencephalography (EEG), neck electromyography (EMG), inertial measurement unit (IMU) acceleration, and ground reaction force recordings from older adults walking over uneven terrain at varying speeds. Participants completed two trials per condition lasting three minutes each, along with a three-minute seated rest baseline. The dataset includes digitized electrode locations for each participant and represents a comprehensive multimodal neurophysiological and biomechanical assessment of locomotor control in aging.",
-  "methods_description": "Data collection included high-density dual-layer EEG, neck EMG, IMU acceleration, and ground reaction force measurements. Participants performed two trials of three minutes each for each walking condition (varying speeds and terrain types) plus a three-minute seated rest trial.",
+  "description": "This dataset comprises high-density, dual-layer electroencephalography (EEG), neck electromyography (EMG), inertial measurement unit (IMU) acceleration, and ground reaction force recordings collected from older adults walking over uneven terrain at varying speeds. Each participant completed multiple walking trials under different conditions as well as a seated rest trial, with digitized electrode locations provided. The dataset supports research into the neural and biomechanical mechanisms underlying balance and gait control during complex locomotion in aging populations.",
+  "methods_description": "Participants performed two three-minute trials for each walking condition over uneven terrain at different speeds, along with a seated rest trial. High-density dual-layer EEG, neck EMG, IMU acceleration, and ground reaction force were recorded simultaneously, and digitized electrode locations were saved for each subject.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,34 +27,26 @@
       "term": "EEG"
     },
     {
-      "term": "electromyography"
+      "term": "Electromyography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004576"
     },
     {
       "term": "gait"
     },
     {
-      "term": "aging"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "inertial measurement units"
-    },
-    {
-      "term": "ground reaction force"
+      "term": "Aging",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000375"
     },
     {
       "term": "uneven terrain"
     },
     {
-      "term": "locomotor control"
+      "term": "inertial measurement unit"
     },
     {
-      "term": "biomechanics"
-    },
-    {
-      "term": "older adults"
+      "term": "ground reaction force"
     }
   ],
   "related_identifiers": [
